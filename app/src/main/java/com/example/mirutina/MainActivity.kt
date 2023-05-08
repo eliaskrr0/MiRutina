@@ -1,4 +1,3 @@
-t init
 package com.example.mirutina
 
 import androidx.appcompat.app.AppCompatActivity
