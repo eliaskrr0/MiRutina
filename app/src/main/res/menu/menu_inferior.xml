@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Inicio"
+        android:id="@+id/icono_inicio"
+        android:icon="@drawable/icono_inicio"/>
+    <item android:title="Perfil"
+        android:id="@+id/icono_perfil"
+        android:icon="@drawable/icono_perfil"/>
+    <item android:title="Tareas"
+        android:id="@+id/icono_tareas"
+        android:icon="@drawable/icono_tareas"/>
+</menu>
