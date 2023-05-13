@@ -7,10 +7,12 @@ import android.os.Bundle
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
+        abrirVentanaPrinicpal()
+    }
 
+    fun abrirVentanaPrinicpal() {
+        val ventanaPrinciapl = Intent(this, MainActivity::class.java)
         Thread.sleep(2000)
-        val abrirMenuPrincipal = Intent(this, MainActivity::class.java)
-        startActivity(abrirMenuPrincipal)
+        startActivity(ventanaPrinciapl)
     }
 }
